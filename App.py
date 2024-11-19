@@ -3,7 +3,7 @@ from Pages import Home, Project1, Project2, Project3
 from streamlit_navigation_bar import st_navbar as navbar
 from PIL import Image
 
-image = Image.open('img/gavno.png')
+image = Image.open('./img/gavno.png')
 st.set_page_config(initial_sidebar_state="collapsed", page_icon=image)
 
 
